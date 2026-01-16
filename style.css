@@ -1,0 +1,139 @@
+.tag, body {
+  color: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+.cv-container {
+  background: #fff;
+  margin: auto;
+  padding: 40px;
+  width: 1000px;
+}
+
+.header, section {
+  margin-bottom: 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header h2 {
+  margin: 8px 0 15px;
+  font-weight: 400;
+  color: #555;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact i {
+  margin-right: 6px;
+  color: #07c;
+}
+
+section h3 {
+  border-bottom: 2px solid #07c;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  color: #07c;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+ul {
+  margin: 8px 0 0 18px;
+}
+
+#competencies ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 20px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.role {
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.project {
+  border-left: 3px solid #e0e0e0;
+  padding-left: 12px;
+  margin-top: 16px;
+}
+
+.project h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.project i {
+  margin-right: 6px;
+}
+
+#education div:not(:last-child),
+#skills div:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+#education ul li,
+.job li {
+  margin-bottom: 6px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2pt 5pt;
+  margin: 0 3pt 3pt 0;
+  border-radius: 3pt;
+}
+
+
+.fa-star.fa-solid::before {
+	color: #ffd43b;
+}
+
+.fa-star-half-stroke.fa-solid::before {
+	color: #ffd43b;
+}
+
+.fa-star.fa-regular::before {
+	color: #ffd43b;
+}
+
+
+
+
+
+
